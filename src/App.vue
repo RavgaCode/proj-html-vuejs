@@ -10,6 +10,7 @@
       <!-- About -->
       <AboutSection />
       <!-- Projects -->
+      <ProjectSection />
       <!-- Results -->
       <!-- Contact form -->
     </main>
@@ -23,9 +24,16 @@ import TopHeader from "./components/TopHeader.vue";
 import JumbotronHome from "./components/JumbotronHome.vue";
 import ServicesSection from "./components/ServicesSection.vue";
 import AboutSection from "./components/AboutSection.vue";
+import ProjectSection from "./components/ProjectSection.vue";
 export default {
   name: "App",
-  components: { TopHeader, JumbotronHome, ServicesSection, AboutSection },
+  components: {
+    TopHeader,
+    JumbotronHome,
+    ServicesSection,
+    AboutSection,
+    ProjectSection,
+  },
 };
 </script>
 
