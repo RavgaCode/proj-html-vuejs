@@ -12,7 +12,9 @@
       <!-- Projects -->
       <ProjectSection />
       <!-- Results -->
+      <ResultSection />
       <!-- Contact form -->
+      <GetInTouchSection />
     </main>
     <!-- Footer -->
     <footer></footer>
@@ -25,6 +27,8 @@ import JumbotronHome from "./components/JumbotronHome.vue";
 import ServicesSection from "./components/ServicesSection.vue";
 import AboutSection from "./components/AboutSection.vue";
 import ProjectSection from "./components/ProjectSection.vue";
+import ResultSection from "./components/ResultSection.vue";
+import GetInTouchSection from "./components/GetInTouchSection.vue";
 export default {
   name: "App",
   components: {
@@ -33,6 +37,8 @@ export default {
     ServicesSection,
     AboutSection,
     ProjectSection,
+    ResultSection,
+    GetInTouchSection,
   },
 };
 </script>

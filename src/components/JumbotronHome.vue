@@ -5,7 +5,7 @@
       <div class="row d-flex justify-between">
         <!-- Logo img -->
         <div class="col-6">
-          <p>Logo Nexgen</p>
+          <img src="../assets/img/logo.png" alt="" />
         </div>
         <!-- Navbar -->
         <div class="col-6 d-flex justify-content-end">
