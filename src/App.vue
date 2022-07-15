@@ -1,11 +1,25 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <!-- Header with Jumbotron -->
+    <TopHeader />
+    <!-- Main -->
+    <main>
+      <!-- Services -->
+      <!-- About -->
+      <!-- Projects -->
+      <!-- Results -->
+      <!-- Contact form -->
+    </main>
+    <!-- Footer -->
+    <footer></footer>
+  </div>
 </template>
 
 <script>
+import TopHeader from "./components/TopHeader.vue";
 export default {
   name: "App",
-  components: {},
+  components: { TopHeader },
 };
 </script>
 
