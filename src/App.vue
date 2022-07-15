@@ -6,6 +6,7 @@
     <!-- Main -->
     <main>
       <!-- Services -->
+      <ServicesSection />
       <!-- About -->
       <!-- Projects -->
       <!-- Results -->
@@ -19,9 +20,11 @@
 <script>
 import TopHeader from "./components/TopHeader.vue";
 import JumbotronHome from "./components/JumbotronHome.vue";
+import ServicesSection from "./components/ServicesSection.vue";
+
 export default {
   name: "App",
-  components: { TopHeader, JumbotronHome },
+  components: { TopHeader, JumbotronHome, ServicesSection },
 };
 </script>
 
