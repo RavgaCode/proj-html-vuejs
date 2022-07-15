@@ -2,6 +2,7 @@
   <div id="app">
     <!-- Header with Jumbotron -->
     <TopHeader />
+    <JumbotronHome />
     <!-- Main -->
     <main>
       <!-- Services -->
@@ -17,9 +18,10 @@
 
 <script>
 import TopHeader from "./components/TopHeader.vue";
+import JumbotronHome from "./components/JumbotronHome.vue";
 export default {
   name: "App",
-  components: { TopHeader },
+  components: { TopHeader, JumbotronHome },
 };
 </script>
 

@@ -12,7 +12,7 @@
             </div>
           </div>
           <!-- Right Col -->
-          <div class="col-6">
+          <div class="col-6 d-flex justify-content-end">
             <ul>
               <li>
                 <span><i class="fa-solid fa-phone"></i></span>+1(305) 1234-5678
@@ -50,7 +50,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../style/style.scss";
 .top_header {
   height: 60px;
