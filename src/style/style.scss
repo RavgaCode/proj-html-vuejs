@@ -3,9 +3,37 @@
 ul {
   margin: 0;
 }
+h1,
+h2 {
+  margin: 0;
+}
 li {
   list-style-type: none;
 }
 a {
   color: inherit;
+}
+.ms_btn {
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.btn_green {
+  background-color: #058283;
+  color: white;
+}
+.btn_whitebg {
+  background-color: white;
+  color: #058283;
+  border: 1px solid #058283;
+}
+
+.highlighted_green {
+  color: #058283;
+  background-color: #d5e7e8;
+  border-radius: 7px;
+  padding-inline: 0.5rem;
+  opacity: 0.8;
 }
