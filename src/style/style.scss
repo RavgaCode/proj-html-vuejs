@@ -44,10 +44,21 @@ h5 {
   color: #058283;
   border: 1px solid #058283;
 }
+.btn_transparent {
+  color: white;
+  border: 1px solid #058283;
+}
 
 .highlighted_green {
   color: #058283;
   background-color: #d5e7e8;
+  border-radius: 7px;
+  padding-inline: 0.5rem;
+  opacity: 0.8;
+}
+.highlighted_white {
+  color: white;
+  background-color: #0e272d;
   border-radius: 7px;
   padding-inline: 0.5rem;
   opacity: 0.8;
