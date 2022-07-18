@@ -13,12 +13,27 @@ li {
 a {
   color: inherit;
 }
+h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+h4 {
+  font-weight: 700;
+}
+h5 {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #14a8aa;
+}
+
+// BUTTONS
 .ms_btn {
   padding: 0.5rem 1rem;
   border-radius: 7px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
+  flex-shrink: 0;
 }
 .btn_green {
   background-color: #058283;
