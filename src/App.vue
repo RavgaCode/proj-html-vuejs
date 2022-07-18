@@ -17,7 +17,9 @@
       <GetInTouchSection />
     </main>
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      <BotFooter />
+    </footer>
   </div>
 </template>
 
@@ -29,6 +31,7 @@ import AboutSection from "./components/AboutSection.vue";
 import ProjectSection from "./components/ProjectSection.vue";
 import ResultSection from "./components/ResultSection.vue";
 import GetInTouchSection from "./components/GetInTouchSection.vue";
+import BotFooter from "./components/BotFooter.vue";
 export default {
   name: "App",
   components: {
@@ -39,6 +42,7 @@ export default {
     ProjectSection,
     ResultSection,
     GetInTouchSection,
+    BotFooter,
   },
 };
 </script>
