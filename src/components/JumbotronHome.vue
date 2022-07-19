@@ -23,7 +23,6 @@
             <li><a href="#">RESULTS</a></li>
             <li><a href="#" class="ms_btn btn_green">GET IN TOUCH</a></li>
           </ul>
-          <div class="ms_btn btn_size"></div>
         </div>
       </div>
     </div>
