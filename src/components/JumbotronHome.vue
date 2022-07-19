@@ -46,7 +46,7 @@ export default {
   name: "JumbotronHome",
   data() {
     return {
-      navItems: ["HOME", "SERVICES", "ABOU", "PROJECTS", "RESULTS"],
+      navItems: ["HOME", "SERVICES", "ABOUT", "PROJECTS", "RESULTS"],
     };
   },
 };

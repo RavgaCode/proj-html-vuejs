@@ -17,9 +17,13 @@
         <div class="col-4 my-3">
           <div class="services_card">
             <div class="d-flex justify-content-between green_icons">
-              <div><a href="#">Icona</a></div>
+              <div class="card_icon">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
               <div>
-                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="green_arrow"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
               </div>
             </div>
             <h4>Audit & Assurance</h4>
@@ -28,36 +32,77 @@
         </div>
         <div class="col-4 my-3">
           <div class="services_card">
-            <span>Icona</span>
-            <h4>Audit & Assurance</h4>
+            <div class="d-flex justify-content-between green_icons">
+              <div class="card_icon"><i class="fa-solid fa-briefcase"></i></div>
+              <div>
+                <a href="#" class="green_arrow"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <h4>Financial Advisory</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="col-4 my-3">
           <div class="services_card">
-            <span>Icona</span>
-            <h4>Audit & Assurance</h4>
+            <div class="d-flex justify-content-between green_icons">
+              <div class="card_icon">
+                <i class="fa-solid fa-chart-simple"></i>
+              </div>
+              <div>
+                <a href="#" class="green_arrow"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <h4>Analytics and M&A</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="col-4 my-3">
           <div class="services_card">
-            <span>Icona</span>
-            <h4>Audit & Assurance</h4>
+            <div class="d-flex justify-content-between green_icons">
+              <div class="card_icon">
+                <i class="fa-solid fa-plane-departure"></i>
+              </div>
+              <div>
+                <a href="#" class="green_arrow"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <h4>Middle Marketing</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="col-4 my-3">
           <div class="services_card">
-            <span>Icona</span>
-            <h4>Audit & Assurance</h4>
+            <div class="d-flex justify-content-between green_icons">
+              <div class="card_icon">
+                <i class="fa-solid fa-earth-asia"></i>
+              </div>
+              <div>
+                <a href="#" class="green_arrow"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <h4>Legal Consulting</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="col-4 my-3">
           <div class="services_card">
-            <span>Icona</span>
-            <h4>Audit & Assurance</h4>
+            <div class="d-flex justify-content-between green_icons">
+              <div class="card_icon"><i class="fa-solid fa-inbox"></i></div>
+              <div>
+                <a href="#" class="green_arrow"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <h4>Regulatory Risk</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
@@ -97,8 +142,19 @@ h4 {
   border-radius: 15px;
   padding: 2.5rem;
 }
-.green_icons a {
+.card_icon {
   color: #058283;
+  font-size: 25px;
+}
+.green_arrow {
+  font-size: 18px;
+  color: #82c1c1;
   text-decoration: none;
+}
+.green_arrow:hover {
+  border-radius: 50%;
+  background-color: #daeced;
+  padding: 4px 9px;
+  color: #82c1c1;
 }
 </style>
