@@ -106,7 +106,7 @@ export default {
 @import "../style/style.scss";
 
 section {
-  height: 120vh;
+  height: 135vh;
 }
 li {
   margin-inline: 2rem;
