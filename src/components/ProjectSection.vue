@@ -122,6 +122,9 @@ img {
   border-radius: 10px;
   filter: brightness(60%);
 }
+h3 {
+  color: black;
+}
 h4 {
   color: white;
   text-align: center;
