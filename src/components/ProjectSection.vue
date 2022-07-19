@@ -143,6 +143,10 @@ p {
   bottom: 0;
   left: 0;
 }
+li:hover a {
+  color: #058283;
+}
+
 .hover_card {
   display: none;
   position: absolute;

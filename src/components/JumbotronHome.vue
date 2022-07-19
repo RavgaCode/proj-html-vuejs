@@ -77,6 +77,9 @@ li {
     font-weight: 500;
   }
 }
+li:hover a {
+  color: #058283;
+}
 .ms_btn {
   margin-inline: 0.5rem;
   z-index: 2;

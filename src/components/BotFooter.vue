@@ -171,7 +171,7 @@ footer {
   padding: 2rem;
   margin-right: 1.5rem;
 }
-ul {
+.card_footer ul {
   padding-left: 2rem;
 }
 li {
