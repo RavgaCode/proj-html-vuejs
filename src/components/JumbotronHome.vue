@@ -16,11 +16,9 @@
         <!-- Navbar -->
         <div class="col-6 d-flex justify-content-end align-content-center">
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">RESULTS</a></li>
+            <li v-for="(item, index) in navItems" :key="index">
+              <a href="#">{{ item }}</a>
+            </li>
             <li><a href="#" class="ms_btn btn_green">GET IN TOUCH</a></li>
           </ul>
         </div>
@@ -46,6 +44,11 @@
 <script>
 export default {
   name: "JumbotronHome",
+  data() {
+    return {
+      navItems: ["HOME", "SERVICES", "ABOU", "PROJECTS", "RESULTS"],
+    };
+  },
 };
 </script>
 
