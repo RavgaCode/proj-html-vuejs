@@ -18,7 +18,7 @@
         </ul>
       </div>
       <!-- Projects Grid -->
-      <div class="row">
+      <div class="row d-flex justify-content-between">
         <div class="col-4 my-3">
           <div class="project_card">
             <img src="../assets/img/project-1.jpg" alt="Project 1 Img" />
@@ -118,7 +118,7 @@ li {
   }
 }
 img {
-  width: 350px;
+  max-width: 100%;
   border-radius: 10px;
   filter: brightness(60%);
 }
@@ -137,11 +137,14 @@ p {
 }
 .project_card {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .front_card_name {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  margin-left: -175px;
 }
 li:hover a {
   color: #058283;
@@ -151,7 +154,8 @@ li:hover a {
   display: none;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  margin-left: -175px;
 }
 .project_card:hover .hover_card {
   display: block;
