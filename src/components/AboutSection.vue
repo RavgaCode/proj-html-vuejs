@@ -1,5 +1,15 @@
 <template>
   <section>
+    <img
+      src="../assets/img/bullets.png"
+      alt="green bullets"
+      class="top_bullets"
+    />
+    <img
+      src="../assets/img/bullets.png"
+      alt="green bullets"
+      class="bottom_bullets"
+    />
     <div class="container">
       <div class="row">
         <!-- Left Col - Text-->
@@ -62,6 +72,7 @@ section {
   background-color: #111117;
   color: white;
   height: 80vh;
+  position: relative;
 }
 p {
   color: #b1bbcd;
@@ -72,5 +83,19 @@ img {
 .ms_btn {
   margin-right: 1rem;
   margin-top: 2rem;
+}
+.top_bullets {
+  position: absolute;
+  height: 100px;
+  top: -48px;
+  left: 50%;
+  margin-left: -35px;
+}
+.bottom_bullets {
+  position: absolute;
+  width: 100px;
+  bottom: -53px;
+  left: 50%;
+  margin-left: -35px;
 }
 </style>
