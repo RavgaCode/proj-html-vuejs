@@ -82,7 +82,8 @@ li {
   margin-inline: 2rem;
 }
 img {
-  filter: saturate(90%);
+  filter: brightness(400%);
+  height: 25px;
 }
 h3 {
   padding-block: 2rem;
