@@ -1,15 +1,20 @@
 <template>
   <section>
-    <img
-      src="../assets/img/bullets.png"
-      alt="green bullets"
-      class="top_bullets"
-    />
-    <img
-      src="../assets/img/bullets.png"
-      alt="green bullets"
-      class="bottom_bullets"
-    />
+    <div class="bullets_container_top">
+      <img
+        src="../assets/img/bullets.png"
+        alt="green bullets"
+        class="bullets"
+      />
+    </div>
+    <div class="bullets_container_bottom">
+      <img
+        src="../assets/img/bullets.png"
+        alt="green bullets"
+        class="bullets"
+      />
+    </div>
+
     <div class="container">
       <div class="row">
         <!-- Left Col - Text-->
@@ -84,18 +89,26 @@ img {
   margin-right: 1rem;
   margin-top: 2rem;
 }
-.top_bullets {
+.bullets_container_top {
+  height: 60px;
+  width: 150px;
+  overflow: hidden;
   position: absolute;
-  height: 100px;
-  top: -48px;
+  top: -28px;
   left: 50%;
-  margin-left: -35px;
+  margin-left: -59px;
 }
-.bottom_bullets {
+.bullets_container_bottom {
+  height: 60px;
+  width: 150px;
+  overflow: hidden;
   position: absolute;
-  width: 100px;
-  bottom: -53px;
+  bottom: -30px;
   left: 50%;
-  margin-left: -35px;
+  margin-left: -59px;
+}
+.bullets {
+  width: 150px;
+  filter: opacity(30%);
 }
 </style>
